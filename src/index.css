@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nova+Round&family=Unica+One&display=swap");
 
@@ -16,4 +16,8 @@ body,
 
 body {
   font-family: "Josefin Sans", sans-serif;
+  line-height: 1;
+  background-color: black;
+
+  --color-domain-chaos: #d79647;
 }
