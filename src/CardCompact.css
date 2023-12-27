@@ -1,0 +1,72 @@
+.card-compact {
+  width: 120px;
+  height: 120px;
+  border-radius: 2px;
+  color: white;
+  position: relative;
+}
+
+.card-compact.domain-chaos {
+  --color-domain: var(--color-domain-chaos);
+}
+
+.card-compact.domain-fire {
+  --color-domain: var(--color-domain-fire);
+}
+
+.card-compact .avatar {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--color-domain);
+  border-radius: 2px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-compact-avatar-gradient-bottom {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  pointer-events: none;
+  opacity: 0.75;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(0deg 0% 0% / 0%) 0%,
+    hsla(0deg 0% 0% / 1.3%) 8.1%,
+    hsla(0deg 0% 0% / 4.9%) 15.5%,
+    hsla(0deg 0% 0% / 10.4%) 22.5%,
+    hsla(0deg 0% 0% / 17.5%) 29%,
+    hsla(0deg 0% 0% / 25.9%) 35.3%,
+    hsla(0deg 0% 0% / 35.2%) 41.2%,
+    hsla(0deg 0% 0% / 45%) 47.1%,
+    hsla(0deg 0% 0% / 55%) 52.9%,
+    hsla(0deg 0% 0% / 64.8%) 58.8%,
+    hsla(0deg 0% 0% / 74.1%) 64.7%,
+    hsla(0deg 0% 0% / 82.5%) 71%,
+    hsla(0deg 0% 0% / 89.6%) 77.5%,
+    hsla(0deg 0% 0% / 95.1%) 84.5%,
+    hsla(0deg 0% 0% / 98.7%) 91.9%,
+    hsla(0deg 0% 0% / 100%) 100%
+  );
+}
+
+.card-compact .avatar .properties {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  position: relative;
+}
+
+.card-compact .avatar .properties .attributes {
+  display: flex;
+  gap: 10px;
+}
+
+.card-compact .avatar .properties .attributes img {
+  height: 1em;
+}

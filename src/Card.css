@@ -52,6 +52,10 @@
   --color-domain: var(--color-domain-chaos);
 }
 
+.card.domain-fire {
+  --color-domain: var(--color-domain-fire);
+}
+
 .card .header {
   display: flex;
   justify-content: space-between;
