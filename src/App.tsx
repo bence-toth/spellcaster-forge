@@ -1,7 +1,7 @@
 import Card from "./Card";
 import CardCompact from "./CardCompact";
 import ChaosDragon from "./chaos-dragon.jpg";
-import ChaosTower from "./chaos-tower.jpg";
+// import ChaosTower from "./chaos-tower.jpg";
 import FireTower from "./fire-tower.jpg";
 import ManaChaos from "./mana-chaos.png";
 import ManaFire from "./mana-fire.png";
@@ -48,7 +48,7 @@ const App = () => (
         </>
       }
       health={5}
-      attack={5}
+      attack={10}
       attributes={["airborne", "invisible"]}
       cost={5}
     />
@@ -56,7 +56,7 @@ const App = () => (
       domain="chaos"
       avatar={ChaosDragon}
       health={5}
-      attack={5}
+      attack={10}
       attributes={["airborne", "invisible"]}
     />
   </div>
